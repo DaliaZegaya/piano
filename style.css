@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #F5DD8F;
+    background-image: url();
+    background-size: cover;
+    align-items: center;
+    margin-top: 50px;
+   
+    
+}
+
+
+
+h1 {
+    margin-left: 70px; 
+    font-size: 35px; 
+}
+
+
+
+
+.image {
+    background-image: url(backg.jpg);
+    width: 500px;
+    height: 572px;
+    margin-left: 10px;
+    background-size: cover;
+    display: flex;
+    padding-left: 200px;
+    
+}
+
+
+
+.piano {
+    background-color: black;
+    width: 395px;
+    height: 572px;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 0;
+    margin-left: 20x;
+}
+
+span {
+    background-color: white;
+    border: 1px solid black;
+    color: white;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 3px;
+    align-items: center;
+    box-shadow: none;
+    transition-property: box-shadow 2s;
+    text-align: right;
+    font-size: 25px;
+    
+}
+
+span:hover {
+    box-shadow: 0 0 15px 8px;
+    color: black;
+    box-shadow: 10px 20px 40px 2px rgb(117, 114, 114) inset;
+    width: 395px;
+
+    
+}
+
+.black{
+    background-color: black;
+    width: 230px;
+    height: 35px;
+    position: absolute;
+    margin-top: -12px;
+    content: "";
+    z-index: 1;
+    box-shadow: none;
+    border: 1px solid black;
+    transition-property: box-shadow;
+    transition-duration: 0s;
+    color: black;
+}
+
+.black:hover {
+    box-shadow: 10px 8px 20px rgb(67, 64, 64);
+    width: 170px;
+    color: white;
+}
